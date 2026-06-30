@@ -91,7 +91,7 @@ export default function Sidebar() {
           <p className="text-scada-textDim text-xs">{roleLabel(user?.role)} · {user?.company}</p>
         </div>
         <button onClick={handleLogout} className="w-full btn-ghost text-xs text-left px-0">
-          ⏻ Disconnetti
+          ← Disconnetti
         </button>
       </div>
     </aside>
