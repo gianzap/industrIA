@@ -132,7 +132,7 @@ export default function LoginForm() {
 
       <div className="mt-6 p-4 bg-scada-panel border border-scada-border rounded text-xs text-scada-textDim space-y-1">
         <p className="text-scada-muted uppercase tracking-widest text-xs mb-2">Account demo</p>
-        <p>Admin: <code className="text-scada-cyan">admin@msl-automazioni.it</code> / <code className="text-scada-cyan">admin123</code></p>
+        <p>Admin: <code className="text-scada-cyan">admin@msl.it</code> / <code className="text-scada-cyan">admin123</code></p>
         <p>Tecnico: <code className="text-scada-cyan">tecnico@msl.it</code> / <code className="text-scada-cyan">tech123</code></p>
         <p>Operatore: <code className="text-scada-cyan">operatore@cliente.it</code> / <code className="text-scada-cyan">op123</code></p>
       </div>
