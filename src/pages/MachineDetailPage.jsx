@@ -13,6 +13,7 @@ import DiagnosisPanel from '../components/ai/DiagnosisPanel';
 import AiChat from '../components/ai/AiChat';
 import Modal from '../components/ui/Modal';
 import { statusLabel, formatDate, formatDateTime } from '../utils/formatters';
+import ThresholdForm from '../components/tickets/ThresholdForm';
 
 export default function MachineDetailPage() {
   const { id } = useParams();
@@ -162,9 +163,7 @@ export default function MachineDetailPage() {
       {/* Modal soglie — solo admin */}
       {isAdmin && (
         <Modal isOpen={showThresh} onClose={() => setShowThresh(false)} title="CONFIGURA SOGLIE ALLARME">
-          <p className="text-scada-textDim text-sm">
-            Form soglie — da implementare nel prossimo step
-          </p>
+          <ThresholdForm machine={machine} onClose={() => setShowThresh(false)} />
         </Modal>
       )}
     </AppLayout>

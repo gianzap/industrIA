@@ -5,7 +5,7 @@ import Badge from '../components/ui/Badge';
 import StatusDot from '../components/ui/StatusDot';
 import { MACHINES } from '../utils/mockData';
 import authService from '../services/authService';
-import { roleLabel, formatDate } from '../utils/formatters';
+import { roleLabel} from '../utils/formatters';
 
 export default function AdminPage() {
   const alarms  = useSelector(s => s.alarms.list);
