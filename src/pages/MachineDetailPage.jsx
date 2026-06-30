@@ -43,7 +43,7 @@ export default function MachineDetailPage() {
       dispatch(clearCurrent());
       dispatch(clearDiagnosis());
     };
-  }, [id]);
+  }, [id, dispatch]);
 
   if (!machine) return (
     <AppLayout>
