@@ -1,5 +1,5 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
-import groqService from '../../services/groqService';
+import groqService from '../../services/aiService';
 import { addUserMessage } from '../slices/aiSlice';
 
 // Thunk 1: chiede all'AI una diagnosi completa della macchina
